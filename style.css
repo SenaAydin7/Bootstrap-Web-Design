@@ -1,0 +1,71 @@
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+.btn-primary{
+  background-color: #a3cfbb;
+  border-color: #adcfa3;
+}
+
+.bg-gradient{
+  background-image: #a3cfbb;
+}
+
+.btn-primary:hover{
+  background-color: #75b798;
+  border-color: #75b798;
+}
+.icon-link{
+  color: #a3cfbb;
+  text-decoration-color: #a3cfbb;
+}
+
+.d-block{
+  border-radius: 20px;
+}
+.nav-item a{
+  font-size: 20px;
+  font-weight: 450;
+  margin-left: 10px;
+}
+
+
+.nav-item a:hover{
+  color:transparent;
+  background: linear-gradient(to right,#81e7c0,#61d0f2);
+  -webkit-background-clip: text;
+  
+}
+#spanCode{
+  color:transparent;
+  background: linear-gradient(to right,#81e7c0,#61d0f2);
+  -webkit-background-clip: text;
+  font-family:sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#spanCode1{
+    color:transparent;
+    background: linear-gradient(to right,#81e7c0,#61d0f2);
+    -webkit-background-clip: text;
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.gradient-background {
+  background: linear-gradient(300deg, #4f367e, #98e6dc);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+}
